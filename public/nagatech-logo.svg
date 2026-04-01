@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nagatech-gradient" x1="12" y1="60" x2="108" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2990A"/>
+      <stop offset="1" stop-color="#FFB347"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="transparent"/>
+  <path
+    d="M26 84V36C26 28.268 32.268 22 40 22C47.732 22 54 28.268 54 36V46.5C54 50.09 56.91 53 60.5 53C64.09 53 67 50.09 67 46.5V36C67 28.268 73.268 22 81 22C88.732 22 95 28.268 95 36V84C95 91.732 88.732 98 81 98C73.268 98 67 91.732 67 84V73.5C67 69.91 64.09 67 60.5 67C56.91 67 54 69.91 54 73.5V84C54 91.732 47.732 98 40 98C32.268 98 26 91.732 26 84Z"
+    fill="url(#nagatech-gradient)"
+  />
+  <circle cx="96" cy="26" r="10" fill="#F2990A"/>
+</svg>
