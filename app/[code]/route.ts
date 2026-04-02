@@ -24,10 +24,11 @@ const notFoundHtml = `<!doctype html>
 
 export async function GET(
   request: Request,
-  { params }: { params: { code: string } }
+  { params }: { params: Promise<{ code: string }> }
 ) {
+  const { code } = await params;
   const collection = await getLinksCollection();
-  const doc = await collection.findOne({ code: params.code });
+  const doc = await collection.findOne({ code });
 
   if (!doc) {
     return new Response(notFoundHtml, {

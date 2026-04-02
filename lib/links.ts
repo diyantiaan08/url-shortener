@@ -10,7 +10,7 @@ let indexPromise: Promise<string> | null = null;
 
 export async function getLinksCollection() {
   const client = await clientPromise;
-  const db = client.db("db-url-shorter");
+  const db = client.db();
   const collection = db.collection<LinkDoc>("links");
 
   if (!indexPromise) {
